@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chosePhotoButtoId"
+        android:text="Chose Photo"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choseImageNameTextViewId"
+        android:layout_below="@id/chosePhotoButtoId"
+        android:hint="Chose image name"
+        />
+
+
+    <ImageView
+        android:id="@+id/choseImageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressbarId"
+        android:layout_below="@+id/choseImageNameTextViewId"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <ProgressBar
+        android:id="@+id/progressbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/saveImageButtonId"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/saveImageButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/showAllImageButtonId"
+        android:layout_marginTop="5dp"
+        android:text="Show Image" />
+
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showAllImageButtonId"
+        android:text="Show Image"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
