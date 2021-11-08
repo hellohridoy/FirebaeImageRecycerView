@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1093160726160",
+    "project_id": "firebaeimagerecycerview",
+    "storage_bucket": "firebaeimagerecycerview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093160726160:android:eaebfd3e5bbe58b0587215",
+        "android_client_info": {
+          "package_name": "com.example.firebaeimagerecycerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093160726160-3o3aloernlcqo6atpfq8ldfqu28g9v43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCENgLvo_8db_CIiddJQOZuPeXQvxhR92s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093160726160-3o3aloernlcqo6atpfq8ldfqu28g9v43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
